@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Data Visualization</title>
+
+  <h1 style="text-align:center">World Happiness Report</h1>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+  </style>
+</head>
+<body>
+
+
+  <div class="buttons-container">
+
+    <button onclick="show_data('Central and Eastern Europe')">Central and Eastern Europe</button>
+    <button onclick="show_data('East Asia')">East Asia</button>
+    <button onclick="show_data('South Asia')">South Asia</button>
+    <button onclick="show_data('Sub-Saharan Africa')">Sub-Saharan Africa</button>
+    <button onclick="show_data('Latin America and Caribbean')">Latin America and Caribbean</button>
+
+    <!--
+    <button onclick="show_data('Western Europe')">Western Europe</button>
+    <button onclick="show_data('North America and ANZ')">North America and ANZ</button>
+    <button onclick="show_data('Southeast Asia')">Southeast Asia</button>
+    <button onclick="show_data('Middle East and North Africa')">Middle East and North Africa</button>
+-->
+
+  </div>
+
+    <div class="chart-container" id="line-chart"></div>
+
+    <div class="paragraph-container">
+        <p>
+            The World Happiness Report is a annual publication that assesses the happiness levels of countries worldwide, utilizing data from the Gallup World Poll.
+            The happiness scores are based on respondents' ratings of their current lives on a scale from 0 (worst) to 10 (best).
+        </p>
+
+        <p>
+            The data shows a correlation between region's happiness levels and its economy,
+            and economic changes can impact people's perceptions of their happiness.
+        </p>
+
+        <p>
+            Each chart displays happiness trend from 2005 to 2022 for a specific region,
+            with annotations at key historical points of potential economic impact on happiness levels in those areas.
+        </p>
+
+        <p>
+            Greyout trend lines of other regions in the background provide a comparative context,
+            and hovering highlights the trend line for focus.
+        </p>
+
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="final_project.js"></script>
+
+</body>
+</html>

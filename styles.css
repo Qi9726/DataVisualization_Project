@@ -1,0 +1,97 @@
+
+    body {
+      font-family: Arial, sans-serif;
+       color: green;
+    }
+
+
+    .paragraph-container {
+      float: right;
+      width: 30%;
+      background-color: #e0e0e0;
+      padding: 20px;
+      margin-top: 40px;
+      margin-left: -30px;
+      margin-right: 100px;
+      box-sizing: border-box;
+    }
+
+    .buttons-container {
+
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      text-align: right;
+      text-decoration: none;
+      margin-left: 40px;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .raised-button:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 1), 0 12px 30px rgba(0, 0, 0, 1);
+      background-color: #388E3C;
+    }
+
+    .chart-container {
+      float: left;
+      width: 60%;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 60px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 400px;
+      background-color: white;
+
+    }
+
+   h1 {
+      background-color: silver;
+      padding: 10px;
+      text-align: center;
+      color: green;
+    }
+
+    .axis line{
+    stroke: #706f6f;
+    stroke-width: 0.5;
+    shape-rendering: crispEdges;
+    }
+
+    .axis path {
+    stroke: #706f6f;
+    stroke-width: 0.7;
+    shape-rendering: crispEdges;
+    }
+
+    .axis text {
+    fill: #2b2929;
+    font-family: Georgia;
+    font-size: 120%;
+    }
+
+    .line {
+    fill: none;
+    stroke: #d2d2d2;
+    }
+
+    .gray-line {
+    fill: none;
+    stroke: #d2d2d2;
+    opacity: 0;
+    stroke-width: 10;
+    }
+
+    .trend_label {
+    fill: #d2d2d2;
+    font-family: Georgia;
+    font-size: 80%;
+    }
+
+
